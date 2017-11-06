@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href=" ">
+    <h1> A meeting room reservation form</h1>
+    <h5>Notice how the PHP code for the form remains basically unchanged, despite the template</h5>
+    </head>
+    <body>
+      <script type="text/javascript" src=" "></script>
+      <table>
+        <tr>
+          <td>Your name:* </td>
+          <td><input required type="text"></td>
+        </tr>
+        <tr bgcolor="#E6E6E6">
+          <td >Your email address:* </td>
+          <td><input required type="text"></td>
+        </tr>
+        <tr>
+          <td>Department: *</td>
+          <td>
+              <select required>
+                <option> -select- </option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+          </td>
+          <tr bgcolor="#E6E6E6">
+            <td >Which room would you like to reserve: </td>
+            <td>
+            <input type="radio" name ="opt" value="1">Room A <br>
+            <input type="radio" name ="opt" value="2">Room B <br>
+            <input type="radio" name ="opt" value="3">Room C
+            </td>
+          </tr>
+          <tr>
+            <td>Extra requirements: </td>
+            <td>
+            <input type="checkbox" >Flipchart and pens <br>
+            <input type="checkbox" >Plasma TV screen<br>
+            <input type="checkbox" >Cofee, tea and mineral water
+            </td>
+          </tr>
+          <tr bgcolor="#E6E6E6">
+            <td >Reservation date:* </td>
+            <td ><input type="date"> <img src="https://icon-icons.com/icons2/112/PNG/512/calendar_blue_18848.png" width="25px"><br> Date format is YYYY-MM-DD</td>
+          </tr>
+          <tr>
+            <td>Reservation time:* </td>
+            <td>
+            <select>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+            <select>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+            </td>
+
+          </tr>
+          <td></td>
+          <td><input type="submit"></td>
+        </tr>
+      </table>
+    </body>
+</html>
